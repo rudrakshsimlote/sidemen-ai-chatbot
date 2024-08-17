@@ -1,0 +1,31 @@
+.chatWindow {
+  background-color: #ffffff; /* White background for better readability */
+  padding: 20px;
+  border-radius: 10px;
+  height: 400px;
+  overflow-y: auto;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for better visual separation */
+}
+
+.message {
+  margin-bottom: 15px;
+}
+
+.userMessage {
+  background-color: #0070f3; /* Bright blue for user messages */
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 75%;
+  margin-left: auto;
+}
+
+.botMessage {
+  background-color: #e0e0e0; /* Light gray for bot messages */
+  color: #333; /* Dark text color for better visibility */
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 75%;
+  margin-right: auto;
+}
+
